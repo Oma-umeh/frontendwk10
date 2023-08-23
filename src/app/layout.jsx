@@ -3,7 +3,7 @@ import Footer from './components/Footer'
 import './globals.css'
 import { Handjet } from 'next/font/google'
 
-const inter = Handjet({ subsets: ['latin'] })
+// const inter = Handjet({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'my first react class',
@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   const myName = 'helen'
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body>
       {/* <Navbar/> */}
       <main className='text-[50px] h-[600px]'>
         {children}
