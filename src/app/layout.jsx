@@ -1,7 +1,7 @@
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
+// import Navbar from './components/Navbar'
+// import Footer from './components/Footer'
 import './globals.css'
-import { Handjet } from 'next/font/google'
+// import { Handjet } from 'next/font/google'
 
 // const inter = Handjet({ subsets: ['latin'] })
 

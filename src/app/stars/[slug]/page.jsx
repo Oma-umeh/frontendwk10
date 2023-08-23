@@ -11,7 +11,7 @@ export default function page({params}) {
         <Image src={star.image} alt={star.name} width={500} height={400}/>
         <h2>Nationality: {star.nationality}</h2>
         <p>Profession: {star.profession}</p>
-        <p>Date Of Birt: {star.date_of_birth}</p>
+        <p>Date Of Birth: {star.date_of_birth}</p>
         <p>Net Worth: {star.net_worth}</p>
         <p>Description: {star.description}</p>
     </section>
